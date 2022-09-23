@@ -1,15 +1,20 @@
-h1,
-h2 {
+h1, h2 {
   font-family: Lato;
 }
-div {
+body{
+  width: 625px;
+}
+div{
+  display: flex;
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  min-height: 50px;
+  line-height: 1;
+  padding: 0 10px;
+  word-break: break-all;
 }
-div:nth-child(odd) {
-  background-color: aqua;
+div:nth-child(odd){
+  background-color: rgb(0, 255, 98);
 }
-div:nth-child(even) {
+div:nth-child(even){
   background-color: cornflowerblue;
 }

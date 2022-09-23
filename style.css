@@ -1,0 +1,15 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+div {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+div:nth-child(odd) {
+  background-color: aqua;
+}
+div:nth-child(even) {
+  background-color: cornflowerblue;
+}
